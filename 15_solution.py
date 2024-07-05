@@ -6,6 +6,5 @@ def solution(n):
         else:
             answer += 1
 
-
 solution(10)
 solution(12)
