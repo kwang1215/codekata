@@ -1,5 +1,6 @@
 def solution(numbers):
-    good_number = [0,1,2,3,4,5,6,7,8,9]
+    # good_number = [0,1,2,3,4,5,6,7,8,9]
+    good_number = list(range(0, 10))
     sum_number = []
     for number in good_number:
         if not number in numbers:
@@ -9,5 +10,6 @@ def solution(numbers):
 
 
 print(solution([5,8,4,0,6,7,9]))
+
 
 
