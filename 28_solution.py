@@ -10,7 +10,4 @@ def solution(numbers):
     return answer
 
 
-print(solution([5,8,4,0,6,7,9]))
-
-
-
+print(solution([5, 8, 4, 0, 6, 7, 9]))
